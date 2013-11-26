@@ -1,7 +1,7 @@
 
 ===================
 
-#Landing page for *Code for Kansas City
+#Landing page for _Code for KC_
 
 * This is the codebase for the Production site at http://codeforkc.org
 * Note that branch `gh-pages` is what shows on production codeforkansascity.org. Master does nothing.

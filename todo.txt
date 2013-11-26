@@ -1,0 +1,5 @@
+TODO
+
+* setup production env
+* setup autodeploy from _gh-pages_ branch
+* 

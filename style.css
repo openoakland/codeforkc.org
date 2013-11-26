@@ -5,54 +5,15 @@
 
     body {
       padding-bottom: 40px;
+      padding-top: 50px;
       color: #5a5a5a;
     }
     .lead li{
       margin-bottom: 10px;
     }
 
-
-    /* CUSTOMIZE THE NAVBAR
-    -------------------------------------------------- */
-
-    /* Special class on .container surrounding .navbar, used for positioning it into place. */
-    .navbar-wrapper {
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      z-index: 10;
-      margin-top: 20px;
-      margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
-    }
-    .navbar-wrapper .navbar {
-
-    }
-
-    /* Remove border and change up box shadow for more contrast */
-    .navbar .navbar-inner {
-      border: 0;
-      -webkit-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-         -moz-box-shadow: 0 2px 10px rgba(0,0,0,.25);
-              box-shadow: 0 2px 10px rgba(0,0,0,.25);
-    }
-
-    /* Downsize the brand/project name a bit */
-    .navbar .brand {
-      padding: 14px 20px 16px; /* Increase vertical padding to match navbar links */
-      font-size: 16px;
-      font-weight: bold;
-      text-shadow: 0 -1px 0 rgba(0,0,0,.5);
-    }
-
-    /* Navbar links: increase padding for taller navbar */
-    .navbar .nav > li > a {
-      padding: 15px 20px;
-    }
-
-    /* Offset the responsive button for proper vertical alignment */
-    .navbar .btn-navbar {
-      margin-top: 10px;
+    .muted { 
+      font-weight: 300;
     }
 
 
@@ -63,7 +24,7 @@
     /* Carousel base class */
     .carousel {
       margin-bottom: 60px;
-      background-image: url(./images/sunrise-top.jpg);
+      background-image: url(./images/header-bg/4.jpg);
       background-size: cover;
     }
 
@@ -93,29 +54,29 @@
       height: 500px;
     }
 
-    .carousel-caption {
-      background-color: rgba(0,0,0,0.5);
+    .carousel .jumbotron {
+      background-color: rgba(0,0,0,0.66);
       position: static;
-      max-width: 650px;
       padding: 10px 0px 20px 20px;
       margin-top: 200px;
       -moz-border-radius: 5px;
       border-radius: 5px;
     }
-    .carousel-caption #checkins {
+    .carousel .jumbotron #checkins {
       color: #CCCCCC;
       padding: .75em 0 0 0;
     }
-    .carousel-caption h1,
-    .carousel-caption .lead {
+    .carousel .jumbotron h1,
+    .carousel .jumbotron .lead {
       margin: 0;
       line-height: 1.25;
       color: #fff;
       text-shadow: 0 2px 2px rgba(0,0,0,.4);
     }
-    .carousel-caption .btn {
+    .carousel .jumbotron .btn {
       margin-top: 10px;
     }
+
 
 
 
@@ -123,15 +84,20 @@
     -------------------------------------------------- */
 
     /* Center align the text within the three columns below the carousel */
-    .marketing .span4 {
+    .marketing > div {
       text-align: center;
     }
     .marketing h2 {
       font-weight: normal;
     }
-    .marketing .span4 p {
+    .marketing p {
       margin-left: 10px;
       margin-right: 10px;
+      margin-bottom: 20px;
+      text-align: center;
+    }
+    .marketing .btn {
+      text-align: center;
     }
 
 
@@ -148,6 +114,9 @@
     .featurette-image {
       margin-top: 0px; /* Vertically center images part 3: negative margin up the image the same amount of the padding to center it. */
       padding-bottom: 40px;
+    }
+    .featurette p { 
+      text-align: left;
     }
 
     /* Give some space on the sides of the floated elements so text doesn't run right into it. */
@@ -166,6 +135,17 @@
       letter-spacing: -1px;
     }
 
+
+
+    .memberbox{margin-top:15px; margin-bottom:10px;}
+    .memberbox h2{color:#aaa; font-size:150%; margin-bottom:0}
+    .carousel .jumbotron .pix-thumb{position:relative; min-width:45px; margin-right:5px; border-radius:6px; width:45px; height:45px; background-image: url(./images/captain.png); background-size: 100% 100%;}
+    .membercheckin{margin-top:20px; color:#fff}
+    .carousel .jumbotron{margin-top:100px}
+    .tip{display:inline-block; position:relative}
+    
+    #projects { text-align: left; }
+    
 
 
     /* RESPONSIVE CSS
@@ -189,7 +169,7 @@
         width: auto;
       }
 
-      .carousel-caption {
+      .carousel .jumbotron {
 
       }
 
@@ -225,7 +205,7 @@
 
       }
       
-      .carousel-caption {
+      .carousel .jumbotron {
         margin-bottom: 20px;
       }
 
@@ -236,18 +216,18 @@
         min-height: 300px;
 
       }
-      .carousel-caption {
+      .carousel .jumbotron {
         width: 96%;
         padding: 10px;
         margin-top: 56px;
         text-align: center;
         max-width: 767px;
       }
-      .carousel-caption h1 {
+      .carousel .jumbotron h1 {
         font-size: 30px;
       }
-      .carousel-caption .lead,
-      .carousel-caption .btn {
+      .carousel .jumbotron .lead,
+      .carousel .jumbotron .btn {
         font-size: 18px;
       }
 

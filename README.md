@@ -3,7 +3,8 @@
 
 #Landing page for _Code for KC_
 
-* This is the codebase for the Production site at http://codeforkc.org
+* This is the codebase for the landing page at http://codeforkc.org
+* The page is simply hosted through Github pages. 
 * Note that branch `gh-pages` is what shows on production codeforkansascity.org. Master does nothing.
 
 ##How to Code for This Repo

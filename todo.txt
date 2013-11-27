@@ -6,3 +6,4 @@ TODO
 * Setup a members section that pull profile summaries through meetup.com API
 * Create logo from Open source NewKC logo
 * Add link to open source logo
+* Add Google Analytics Profile

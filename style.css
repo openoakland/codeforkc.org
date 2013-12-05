@@ -24,8 +24,9 @@
     /* Carousel base class */
     .carousel {
       margin-bottom: 60px;
-      background-image: url(./images/header-bg/4.jpg);
+      background-image: url(./images/header-bg/5.jpg);
       background-size: cover;
+      background-position: center bottom;
     }
 
     .carousel .container {

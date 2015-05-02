@@ -7,3 +7,4 @@ TODO
 * Create logo from Open source NewKC logo
 * Add link to open source logo
 * Add Google Analytics Profile
+* Add as a child theme to the WordPress site
